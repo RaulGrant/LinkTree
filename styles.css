@@ -1,0 +1,12 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Animaciones */
+.transition-all {
+    transition: all 0.3s ease;
+} 
